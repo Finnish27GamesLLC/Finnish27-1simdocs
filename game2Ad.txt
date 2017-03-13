@@ -702,5 +702,5 @@ ace and king         1103611                      0.5 : 1 Odds
 89T spades suit         3785                      9.0 times table minimum
 
 999 mixed suits        25971                      9.0 times table minimum
-ss999+dealer 99            0                    999.0 times table minimum
+ms999+dealer 99            0                    999.0 times table minimum
 
