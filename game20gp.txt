@@ -1,0 +1,104 @@
+1sim.BAS PROGRAM OUTPUT
+
+The user defined set of game rules is described as follows:
+
+open 1roidocs/game20i.txt to see a list of user-defined game rules              
+
+The following is a table displaying information gathered during simulation
+about the best category of five-card-poker hand made from a choice of five
+of the playing cards in each of those player hands that won the game.
+For each category, the table includes data about the number of hands made,
+the number of hands made that ranked higher than the best category of five-
+-card-poker hand made during the same game by the dealer, the number hands
+made that ranked not higher than the best category of five-card-poker hand
+made during the same game by the dealer, and the size of the bonus payout.
+
+PLAYER HANDS THAT HAVE A VALUE OF 27
+
+Hand Category          Number      Higher  Not Higher    Bonus Payout
+
+Not enough cards    109653562
+High Card             5793132     5793132           0    2.0 : 1 Odds 
+One Pair              7657665     7657665           0    2.0 : 1 Odds 
+Two Pair              1281853     1281853           0    2.0 : 1 Odds 
+Three of a Kind        953714      953714           0    2.0 : 1 Odds 
+Straight                78386       78386           0    2.0 : 1 Odds 
+Flush                  102187      102187           0    2.0 : 1 Odds 
+Full House              77990       77990           0    2.0 : 1 Odds 
+Four of a Kind          39518       39518           0    2.0 : 1 Odds 
+Straight Flush           2256        2256           0    2.0 : 1 Odds 
+Five of a Kind              0           0           0    2.0 : 1 Odds 
+
+Total               125640263    15986701           0
+
+
+
+PLAYER HANDS THAT DO NOT HAVE A VALUE OF 27
+
+Hand Category          Number      Higher  Not Higher     
+
+Not enough cards    217149854
+High Card            26614932    26614932           0 
+One Pair             58626498    58626498           0 
+Two Pair             11974506    11974506           0 
+Three of a Kind      10544351    10544351           0 
+Straight              2808766     2808766           0 
+Flush                  977809      977809           0 
+Full House            1061920     1061920           0 
+Four of a Kind         695527      695527           0 
+Straight Flush          85055       85055           0 
+Five of a Kind          15504       15504           0 
+
+Total               330554722   113404868           0
+
+
+
+
+
+The following is a table displaying information gathered during 
+simulation about the best category of five card poker hand made 
+from a choice of five of the playing cards in each player hand 
+and information gathered during simulation about the best category
+of five card poker hand made from a choice of five of the playing
+cards in each dealer hand. For each category, the table includes
+data about the number of hands made.
+
+Hand Category                      Player                      Dealer
+
+Not enough cards                672776777                   670220372
+High Card                        40946545                    30603111
+One Pair                         79196957                    57457077
+Two Pair                         15067485                    10681953
+Three of a Kind                  12891317                     8955292
+Straight                          3230143                     2399235
+Flush                             1197493                      895448
+Full House                        1263714                      879896
+Four of a Kind                     814903                      527400
+Straight Flush                      97178                       73802
+Five of a Kind                      17311                       10533
+
+Total                           827499823                   782704119
+
+
+
+The following is a table displaying information gathered during simulation
+about the best category of five card poker hand made from a choice of five
+of the cards in each of those dealer hands with a numerical sum value of 
+less than twenty-eight points. For each category, the table includes data 
+about the number of hands made.
+
+Hand Category                      Dealer < 28
+
+Not enough cards                670220372
+High Card                        30603111
+One Pair                         57457077
+Two Pair                         10681953
+Three of a Kind                   8955292
+Straight                          2399235
+Flush                              895448
+Full House                         879896
+Four of a Kind                     527400
+Straight Flush                      73802
+Five of a Kind                      10533
+
+Total                           782704119
